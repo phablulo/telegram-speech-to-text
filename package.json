@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "node-telegram-bot-api": "^0.40.0",
+    "request": "^2.88.2",
+    "stream-to-buffer": "^0.1.0"
+  },
+  "name": "telegram-stt",
+  "version": "1.0.0",
+  "description": "Turn telegram voice messages into text messages",
+  "main": "index.js",
+  "repository": "https://github.com/phablulo/telegram-speech-to-text",
+  "author": "Phablulo <phablulo@live.com>",
+  "license": "MIT",
+  "private": false
+}
