@@ -21,7 +21,7 @@ async function toText(audio) {
   audio = {content: audio.toString('base64')}
   const config = {
     encoding: 'OGG_OPUS',
-    sampleRateHertz: 16000,
+    sampleRateHertz: 48000,
     languageCode: language,
   }
   return new Promise((resolve, reject) =>
